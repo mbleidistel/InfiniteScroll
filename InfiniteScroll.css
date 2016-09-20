@@ -18,7 +18,12 @@
     transform: translate3d(0, 0, 0);
 }
 .infinite-scroll .scrolling {
-    animation: moveSlideshow 12s linear infinite;
+    animation: moveSlideshow 36s linear infinite;
+}
+
+.infinite-scroll:hover .scrolling
+{
+    animation-play-state: paused;
 }
 
 @keyframes moveSlideshow {
