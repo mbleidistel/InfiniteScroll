@@ -1,3 +1,9 @@
+#container {
+    overflow: hidden;
+    background: white;
+    padding: 50px; /* for space when scaling*/
+}
+
 /*infinite-scroll*/
 
 .infinite-scroll {
