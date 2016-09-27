@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <title></title>
     <link type="text/css" rel="stylesheet" href="InfiniteScroll.css">
+    <script src="InfiniteScroll.js"></script>
 </head>
 <body>
 
-<div id="container">
-    <!-- Each image is 350px by 233px -->
-    <div class="infinite-scroll">
-        <img src="image-1.jpg" alt="" />
-        <img src="image-2.jpg" alt="" />
-        <img src="image-3.jpg" alt="" />
-        <img src="image-4.jpg" alt="" />
-        <img src="image-5.jpg" alt="" />
-        <img src="image-6.jpg" alt="" />
-        <img src="image-1.jpg" alt="" />
-        <img src="image-2.jpg" alt="" />
-        <img src="image-3.jpg" alt="" />
-        <img src="image-4.jpg" alt="" />
-    </div>
+<div id="infinite-scroll-container">
 </div>
+
+<script>
+    var infiniteScroll = new InfiniteScroll("Images");
+
+</script>
 
 </body>
 </html>
